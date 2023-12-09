@@ -2,9 +2,39 @@
   "puppys": [
     {
       "id": 1,
-      "name": "Milky",
-      "image": "./images/bichon.png",
-      "breed": "Bichon Frise"
+      "name": "Betty",
+      "image": "./images/dachshund.jpg",
+      "breed": "Dachshund"
+    }, 
+    {
+      "id": 2,
+      "name": "Goldly",
+      "image": "./images/golden_retriever.jpg",
+      "breed": "Golden Retriever"
+    },
+    {
+      "id": 3,
+      "name": "Suzzy",
+      "image": "./images/yorkie.jpg",
+      "breed": "Yorkshire Terrierr"
+    },
+    {
+      "id": 4,
+      "name": "Dada",
+      "image": "./images/french_bulldog.jpg",
+      "breed": "Frech Bulldog"
+    },
+    {
+      "id": 5,
+      "name": "Willy",
+      "image": "./images/corgi.jpg",
+      "breed": "Corgi"
+    },
+    {
+      "id": 6,
+      "name": "Yezzy",
+      "image": "./images/malti.jpg",
+      "breed": "Maltipoo"
     }
   ]
 }
