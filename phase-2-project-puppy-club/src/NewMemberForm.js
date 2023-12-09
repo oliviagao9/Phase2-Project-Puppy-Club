@@ -32,7 +32,7 @@ function NewMemberForm({ onAddMember }) {
           type="text"
           name="name"
           value={name}
-          placeholder="member name"
+          placeholder="Member name"
           onChange={(e) => setName(e.target.value)}
         />
         <input
@@ -46,7 +46,7 @@ function NewMemberForm({ onAddMember }) {
           type="text"
           name="breed"
           value={breed}
-          placeholder="member breed"
+          placeholder="Member breed"
           onChange={(e) => setBreed(e.target.value)}
         />
         <button type="submit">Add Member</button>
