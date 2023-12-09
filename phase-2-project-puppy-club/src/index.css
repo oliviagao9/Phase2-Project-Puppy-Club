@@ -67,3 +67,56 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
+
+#member-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color: rgb(181 230 250 / 50%);
+}
+
+#member-form form {
+  display: flex;
+  justify-content: center;
+}
+
+#member-form input {
+  margin-right: 2rem;
+  flex: 1;
+}
+
+#member-form button {
+  width: 150px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--green);
+}
+
+button {
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  background-color: rgb(181 230 250 / 50%);
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+}
