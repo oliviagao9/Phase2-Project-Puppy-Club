@@ -53,6 +53,7 @@ main {
 }
 
 .navbar {
+  margin-top: 15px;
   display: flex;
   justify-content: space-around;
   font-size: x-large;
