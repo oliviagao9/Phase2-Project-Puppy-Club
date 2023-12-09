@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Milky",
-      "image": "",
+      "image": "./images/bichon.png",
       "breed": "Bichon Frise"
     }
   ]
