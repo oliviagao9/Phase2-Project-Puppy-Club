@@ -1,7 +1,8 @@
 function MemberCard( { member } ) {
   console.log(member);
   return (
-    <li >
+    <li className="card">
+      <img src={member.image} alt={member.name} />
       <h4>{member.name}</h4>
     </li>
   )
