@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+import MemberCard from "./MemberCard";
 
 function App() {
   const [member, setMembers] = useState([]);
@@ -15,7 +17,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Routes>
+        <Route
+          path='/member'
+          element={
+            <MemberCard
+              members = { members }/>}
+        />
+      </Routes>
     </div>
   );
 }
