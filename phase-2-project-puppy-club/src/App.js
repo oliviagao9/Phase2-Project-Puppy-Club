@@ -21,6 +21,12 @@ function App() {
     setMembers([...members, newMember]);
   }
 
+  const [searchInput, setSearchInput] = useState("");
+  
+  function onSearchInput(searchText) {
+    setSearchInput(searchText);
+  }
+
   return (
     <div className="app">
       <div className="navbar">
@@ -40,6 +46,8 @@ function App() {
           path='/members'
           element={
             <MemberPage
+              searchInput={searchInput} 
+              onSearchInput={onSearchInput} 
               members = {members}
             />
           }
