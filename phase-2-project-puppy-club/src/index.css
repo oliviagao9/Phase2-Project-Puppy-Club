@@ -26,6 +26,7 @@ main {
   padding: 0 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
@@ -33,7 +34,8 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 25%;
-  border-radius: 5px;}
+  border-radius: 5px;
+}
 
 .card img {
   width: 100%;
@@ -42,6 +44,22 @@ main {
 
 .card button {
   margin-top: 0.5rem;
+}
+
+.card_container {
+  padding: 2px 16px;
+  text-align: center;
+  margin: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
 }
 
 * {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, NavLink} from "react-router-dom";
 import MemberPage from "./MemberPage";
 
 function App() {
@@ -16,7 +16,13 @@ function App() {
   console.log(members);
 
   return (
-    <div className="App">
+    <div className="app">
+      <div className="navbar">
+        <NavLink to='/about'>About</NavLink>
+        <NavLink to='/members'>Members</NavLink>
+        <NavLink to='/newMember'>New Member</NavLink>
+      </div>
+
       <Routes>
         <Route
           path='/members'
