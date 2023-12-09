@@ -1,0 +1,10 @@
+{
+  "puppys": [
+    {
+      "id": 1,
+      "name": "Milky",
+      "image": "",
+      "breed": "Bichon Frise"
+    }
+  ]
+}
