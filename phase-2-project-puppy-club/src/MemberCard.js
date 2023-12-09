@@ -3,7 +3,10 @@ function MemberCard( { member } ) {
   return (
     <li className="card">
       <img src={member.image} alt={member.name} />
-      <h4>{member.name}</h4>
+      <div className="card_container">
+        <h3>{member.name}</h3>
+        <h4>Breed: {member.breed}</h4>
+      </div>
     </li>
   )
 }
