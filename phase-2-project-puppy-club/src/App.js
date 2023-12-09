@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Route, Routes, NavLink} from "react-router-dom";
 import MemberPage from "./MemberPage";
 import NewMemberForm from "./NewMemberForm";
+import About from "./About";
 
 function App() {
   const [members, setMembers] = useState([]);
@@ -29,6 +30,12 @@ function App() {
       </div>
 
       <Routes>
+        <Route
+          path='/about'
+          element={
+            <About/>
+          }
+        />
         <Route
           path='/members'
           element={
