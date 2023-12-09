@@ -124,3 +124,9 @@ button {
 .about {
   font-size: larger;
 }
+
+.searchbar {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
