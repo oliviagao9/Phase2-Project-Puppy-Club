@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import MemberCard from "./MemberCard";
+import MemberPage from "./MemberPage";
 
 function App() {
-  const [member, setMembers] = useState([]);
+  const [members, setMembers] = useState([]);
   
   useEffect(() => {
     fetch("http://localhost:4000/puppys")
@@ -13,16 +13,18 @@ function App() {
     });
   }, []);
 
-  console.log(member);
+  console.log(members);
 
   return (
     <div className="App">
       <Routes>
         <Route
-          path='/member'
+          path='/members'
           element={
-            <MemberCard
-              members = { members }/>}
+            <MemberPage
+              members = {members}
+            />
+          }
         />
       </Routes>
     </div>

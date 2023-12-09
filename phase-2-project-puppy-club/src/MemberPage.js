@@ -1,3 +1,5 @@
+import MemberList from "./MemberList";
+
 function MemberPage({ members }) {
   const membersToDisplay = members
 
